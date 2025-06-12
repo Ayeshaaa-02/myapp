@@ -1,5 +1,6 @@
  - name: Basic Server Setup
    hosts: local
+   become: no
    tasks:
     - name: Example Task
       debug:
